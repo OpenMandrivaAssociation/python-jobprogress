@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.0.4
-Release:        1
+Release:        2
 Summary:        Cross-toolkit UI progress tracking
 Group:          Development/Python
 License:        BSD License

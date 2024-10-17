@@ -7,7 +7,7 @@ Release:        2
 Summary:        Cross-toolkit UI progress tracking
 Group:          Development/Python
 License:        BSD License
-URL:            http://hg.hardcoded.net/jobprogress/
+URL:            https://hg.hardcoded.net/jobprogress/
 Source0:        %{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 

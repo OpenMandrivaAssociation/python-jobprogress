@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.0.4
-Release:        3
+Release:        4
 Summary:        Cross-toolkit UI progress tracking
 Group:          Development/Python
 License:        BSD License
@@ -11,8 +11,8 @@ URL:            https://hg.hardcoded.net/jobprogress/
 Source0:        %{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:  python3-devel
-BuildRequires:  python3dist(setuptools)
+BuildRequires:  pkgconfig(python3)
+BuildRequires:  python%{pyver}dist(setuptools)
 
 %description
  jobprogress -- Cross-toolkit UI progress tracking When doing complex
